@@ -1,0 +1,26 @@
+h1 {
+    font-size: 18pt;
+}
+
+h3 {
+    font-size: 13pt;
+    margin-top: 5px;
+}
+
+h4 {
+    font-size: 10pt;
+    margin-top: -15px;
+}
+
+.tablebox {
+    width: 470px;
+    height: 460px;
+    float: left;
+    margin: 20px;
+    padding: 5px;
+    background: lightgray;
+}
+
+.number {
+    text-align: right;
+}
