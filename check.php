@@ -25,7 +25,7 @@ while (@$thread++<$max) {
 $bigList = array();
 $list = array();
 
-$stmt = $pdo->prepare("SELECT COUNT(*) FROM HstsResult  WHERE Hostname = ?");
+$stmt = $pdo->prepare("SELECT COUNT(*) FROM HstsResult WHERE Hostname = ?");
 
 $rank = 1;
 $alexa = file('public/download/top-1m.csv', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
