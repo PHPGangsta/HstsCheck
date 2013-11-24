@@ -176,7 +176,7 @@ require '../dbconnect.php';
     </div>
 
     <div class="tablebox">
-        You can <a href="/download/results-2013-11-24.csv" target="_blank">download the results as CSV file</a> and download the used <a href="/download/top-1m.csv" target="_blank">Alexa Top 1M CSV</a>.<br><br>
+        You can <a href="/download/results-2013-11-24.csv.zip" target="_blank">download the results as CSV file</a> and download the used <a href="/download/top-1m.csv.zip" target="_blank">Alexa Top 1M CSV</a>.<br><br>
         You can find this website and the crawler on GitHub: HSTS-Checker.<br><br>
         It's interesting that many big players don't have HSTS, but they are on the <a href="http://www.chromium.org/sts" target="_blank">Chromium and Firefox preloaded HSTS lists</a>.<br><br>
         The check has only been run once, so if a server was down during that test, it has been marked as "not HTTPS capable".<br><br>
